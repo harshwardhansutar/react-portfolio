@@ -1,0 +1,35 @@
+body{
+  font-family: Arial;
+  margin:0;
+  padding:0;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  background:#222;
+  color:white;
+  padding:15px;
+}
+
+ul{
+  display:flex;
+  gap:15px;
+  list-style:none;
+}
+
+section{
+  padding:40px;
+}
+
+@media (max-width:768px){
+
+  .navbar{
+    flex-direction:column;
+  }
+
+  ul{
+    flex-direction:column;
+  }
+
+}
