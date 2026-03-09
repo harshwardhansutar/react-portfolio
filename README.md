@@ -1,16 +1,51 @@
-# React + Vite
+# React Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a personal portfolio website developed using React.
+The website showcases my skills, projects, resume, and contact details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* About Me section
+* Projects showcase
+* Skills section
+* Resume download
+* Contact information
+* Responsive design for mobile, tablet, and desktop
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* JavaScript
+* CSS
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Performance Optimization
+
+* Lazy loading of components using React.lazy()
+* Production build generated using `npm run build`
+* Optimized assets for faster loading
+
+## Deployment
+
+The project is hosted on Vercel.
+
+Live Website:
+(https://react-portfolio-harsh-psi.vercel.app/)
+
+GitHub Repository:
+(https://github.com/harshwardhansutar/react-portfolio)
+
+## Testing
+
+The website was tested across multiple browsers including Chrome, Firefox, and Edge.
+Responsiveness was validated using browser developer tools.
+
+## Challenges Faced
+
+While deploying the project, GitHub connectivity issues were encountered during the push command. This was resolved by re-establishing the internet connection and retrying the Git push command.
+
+## Conclusion
+
+The project successfully demonstrates the use of React components, responsive design, and deployment using modern hosting platforms.
